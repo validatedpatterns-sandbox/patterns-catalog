@@ -1,6 +1,28 @@
 # DRAFT Pattern Catalog YAML
 
-This repository contains the Pattern Catalog for the [Hybrid Cloud Patterns](https://hybrid-cloud-patterns.io/) project.
+The Hybrid Cloud Patterns Operator supports importing a catalog YAML file
+containing available patterns for an organization. After importing a catalog
+YAML file, the patterns listed in that YAML file become available in the
+Pattern Catalog. An admin can then select a pattern and deploy it directly
+through the Pattern Catalog UI.
+
+This repository contains the catalog YAML for the [Hybrid Cloud Patterns]
+project. It is automatically imported when the Patterns Operator is installed.
+
+If your organization wants to create their own Pattern Catalog,
+
+* Fork this repo
+* Update catalog.yaml
+* Create a PatternCatalogSource on your cluster pointed to your forked catalog.yaml
+* Wait a few moments and navigate to the Pattern Catalog UI
+* Your organization's patterns should be listed
+
+If you are using your own catalog.yaml, it's possible to delete the default
+PatternCatalogSource.
+
+```bash
+oc delete patterncatalogsource default -n patterns-operator
+```
 
 ## Example Catalog YAML
 
@@ -91,3 +113,5 @@ Each pattern should contain a list of one or more maintainers. Each maintainer s
 | ----- | ----------- |
 | name  | Name of the maintainer |
 | email | Email address of the maintainer |
+
+[Hybrid Cloud Patterns]: https://hybrid-cloud-patterns.io/
