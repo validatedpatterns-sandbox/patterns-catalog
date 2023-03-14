@@ -21,7 +21,7 @@ The top-level organization field should contain
 | name  | Name of the organization |
 | description | Description of the organization |
 | maintainers | Single email address of the maintainers of the organization. **NOTE:** This could be different than the maintainers of individual patterns.
-| url | URL to organization page for more information |
+| url | URL to the organization's page for more information |
 
 ### Patterns
 
@@ -32,10 +32,12 @@ The top-level `patterns` field should contain a list of one or more patterns. Ea
 | name | Name of the pattern |
 | description | One sentence description of the pattern. If this is too long, it will be truncated in the Patterns Catalog UI. |
 | longDescription | Longer multi-line description. Can contain Markdown. |
+| badge | Text to be displayed on the badge in the Catalog UI. Could be "Validated" or "Community". |
 | branch | Default branch of the Git repo to use when deploying the pattern |
-| badge | Text to be displayed on the badge in the Catalog UI. Could be "Validated" or "Community" |
+| gitRepo | URL to the Git repo for the pattern. This should be an HTTPS URL ending with ".git". |
 | maintainers | Single email address of the maintainers of the pattern |
 | products | A list of products used by the pattern |
+| url | URL to pattern documentation |
 
 #### Products
 
