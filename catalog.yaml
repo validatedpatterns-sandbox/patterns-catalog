@@ -7,7 +7,9 @@ organization:
   description: >
     Open source repository of cloud native solution patterns.
     This repository is maintained by Red Hat with contributions from customers and partners.
-  maintainers: team-validated-patterns@redhat.com
+  maintainers:
+    - name: Validated Patterns Team
+      email: team-validated-patterns@redhat.com
   url: https://github.com/hybrid-cloud-patterns
 patterns:
   - name: Multi-cloud GitOps
@@ -18,7 +20,9 @@ patterns:
     badge: Validated
     branch: main
     gitRepo: https://github.com/hybrid-cloud-patterns/multicloud-gitops.git
-    maintainers: team-validated-patterns@redhat.com
+    maintainers:
+      - name: Validated Patterns Team
+        email: team-validated-patterns@redhat.com
     products:
       - name: Red Hat Advanced Cluster Management
       - name: Red Hat OpenShift GitOps
@@ -35,7 +39,9 @@ patterns:
     branch: main
     badge: Community
     gitRepo: https://github.com/hybrid-cloud-patterns/multicluster-devsecops.git
-    maintainers: team-validated-patterns@redhat.com
+    maintainers:
+      - name: Validated Patterns Team
+        email: team-validated-patterns@redhat.com
     products:
       - name: Red Hat Advanced Cluster Management
       - name: Red Hat OpenShift GitOps
@@ -55,7 +61,9 @@ patterns:
     branch: stable
     badge: Validated
     gitRepo: https://github.com/hybrid-cloud-patterns/industrial-edge.git
-    maintainers: team-validated-patterns@redhat.com
+    maintainers:
+      - name: Validated Patterns Team
+        email: team-validated-patterns@redhat.com
     products:
       - name: Red Hat Advanced Cluster Management
       - name: Red Hat OpenShift GitOps

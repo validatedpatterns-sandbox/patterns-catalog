@@ -20,8 +20,17 @@ The top-level organization field should contain
 | ----- | ----------- |
 | name  | Name of the organization |
 | description | Description of the organization |
-| maintainers | Single email address of the maintainers of the organization. **NOTE:** This could be different than the maintainers of individual patterns.
+| maintainers | List of maintainers for the organization. **NOTE:** This could be different than the maintainers of individual patterns.
 | url | URL to the organization's page for more information |
+
+#### Maintainers
+
+Organization should contain a list of one or more maintainers. Each maintainer should contain
+
+| Field | Description |
+| ----- | ----------- |
+| name  | Name of the maintainer |
+| email | Email address of the maintainer |
 
 ### Patterns
 
@@ -38,6 +47,15 @@ The top-level `patterns` field should contain a list of one or more patterns. Ea
 | maintainers | Single email address of the maintainers of the pattern |
 | products | A list of products used by the pattern |
 | url | URL to pattern documentation |
+
+#### Maintainers
+
+Each pattern should contain a list of one or more maintainers. Each maintainer should contain
+
+| Field | Description |
+| ----- | ----------- |
+| name  | Name of the maintainer |
+| email | Email address of the maintainer |
 
 #### Products
 
