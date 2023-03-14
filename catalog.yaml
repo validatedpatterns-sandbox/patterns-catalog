@@ -5,8 +5,8 @@ version: alpha
 organization:
   name: Hybrid Cloud Patterns
   description: >
-    Open source repository of cloud native solution patterns.
-    This repository is maintained by Red Hat with contributions from customers and partners.
+    Open source repository of cloud native solution patterns. This repository
+    is maintained by Red Hat with contributions from customers and partners.
   maintainers:
     - name: Validated Patterns Team
       email: team-validated-patterns@redhat.com
@@ -15,8 +15,9 @@ patterns:
   - name: Multi-cloud GitOps
     description: A simple architecture for managing multiple clusters using GitOps
     longDescription: >
-      This pattern demonstrates a simple architecture for managing multiple clusters using GitOps.
-      It can be used as a good starting point for experimenting with other products in a multi-cluster architecture.
+      This pattern demonstrates a simple architecture for managing multiple
+      clusters using GitOps. It can be used as a good starting point for
+      experimenting with other products in a multi-cluster architecture.
     badge: Validated
     branch: main
     gitRepo: https://github.com/hybrid-cloud-patterns/multicloud-gitops.git
@@ -32,10 +33,12 @@ patterns:
   - name: Multicluster DevSecOps
     description: A horizontal solution for multicluster DevSecOps use cases
     longDescription: >
-      This pattern demonstrates a horizontal solution for multicluster DevSecOps use cases.
-      It is derived from the multi-cloud GitOps pattern with added products to provide a complete DevSecOps workflow.
-      This includes CI/CD pipelines with security gates; image scanning, signing and storage in a secure registry; deployment
-      to secured clusters that provide advanced security monitoring and alerting.
+      This pattern demonstrates a horizontal solution for multicluster
+      DevSecOps use cases. It is derived from the multi-cloud GitOps pattern
+      with added products to provide a complete DevSecOps workflow. This
+      includes CI/CD pipelines with security gates; image scanning, signing and
+      storage in a secure registry; deployment to secured clusters that provide
+      advanced security monitoring and alerting.
     branch: main
     badge: Community
     gitRepo: https://github.com/hybrid-cloud-patterns/multicluster-devsecops.git
@@ -55,9 +58,11 @@ patterns:
   - name: Industrial Edge
     description: A horizontal solution for Industrial Edge use cases
     longDescription: >
-      This pattern demonstrates a horizontal solution for Industrial Edge use cases. It is derived from the MANUela
-      work done by Red Hat Middleware Solution Architects in Germany in 2019/20.
-      The name MANUela stands for MANUfacturing Edge Lightweight Accelerator, you will see this acronym in a lot of artifacts.
+      This pattern demonstrates a horizontal solution for Industrial Edge use
+      cases. It is derived from the MANUela work done by Red Hat Middleware
+      Solution Architects in Germany in 2019/20. The name MANUela stands for
+      MANUfacturing Edge Lightweight Accelerator, you will see this acronym in
+      a lot of artifacts.
     branch: stable
     badge: Validated
     gitRepo: https://github.com/hybrid-cloud-patterns/industrial-edge.git

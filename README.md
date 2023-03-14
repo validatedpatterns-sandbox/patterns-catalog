@@ -11,8 +11,8 @@ version: alpha
 organization:
   name: Hybrid Cloud Patterns
   description: >
-    Open source repository of cloud native solution patterns.
-    This repository is maintained by Red Hat with contributions from customers and partners.
+    Open source repository of cloud native solution patterns. This repository
+    is maintained by Red Hat with contributions from customers and partners.
   maintainers:
     - name: Validated Patterns Team
       email: team-validated-patterns@redhat.com
@@ -21,8 +21,9 @@ patterns:
   - name: Multi-cloud GitOps
     description: A simple architecture for managing multiple clusters using GitOps
     longDescription: >
-      This pattern demonstrates a simple architecture for managing multiple clusters using GitOps.
-      It can be used as a good starting point for experimenting with other products in a multi-cluster architecture.
+      This pattern demonstrates a simple architecture for managing multiple
+      clusters using GitOps. It can be used as a good starting point for
+      experimenting with other products in a multi-cluster architecture.
     badge: Validated
     branch: main
     gitRepo: https://github.com/hybrid-cloud-patterns/multicloud-gitops.git
