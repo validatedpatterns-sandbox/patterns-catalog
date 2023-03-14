@@ -10,7 +10,7 @@ This repository contains the Pattern Catalog for the [Hybrid Cloud Patterns](htt
 | ----- | ----------- |
 | version | Version of the Pattern Catalog specification used |
 | organization | Metadata about the organization providing the patterns |
-| patterns | List of patterns. Each pattern contains metadata about the pattern |
+| patterns | List of patterns. Each list item contains metadata about a single pattern. |
 
 ### Organization
 
