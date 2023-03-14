@@ -44,8 +44,8 @@ The top-level `patterns` field should contain a list of one or more patterns. Ea
 | badge | Text to be displayed on the badge in the Catalog UI. Could be "Validated" or "Community". |
 | branch | Default branch of the Git repo to use when deploying the pattern |
 | gitRepo | URL to the Git repo for the pattern. This should be an HTTPS URL ending with ".git". |
-| maintainers | Single email address of the maintainers of the pattern |
-| products | A list of products used by the pattern |
+| maintainers | List of maintainers for the pattern |
+| products | A list of products used by the pattern. Each product should be a string with the proper name of the product (No abbreviations). |
 | url | URL to pattern documentation |
 
 #### Maintainers
@@ -56,12 +56,3 @@ Each pattern should contain a list of one or more maintainers. Each maintainer s
 | ----- | ----------- |
 | name  | Name of the maintainer |
 | email | Email address of the maintainer |
-
-#### Products
-
-Each pattern should contain a list of one or more products. Each product should contain
-
-| Field | Description |
-| ----- | ----------- |
-| name | Name of the product |
-| version | Version of the product used. Use major/minor versions here. Do not include patch version. |
