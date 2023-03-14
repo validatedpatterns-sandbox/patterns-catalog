@@ -30,7 +30,7 @@ The top-level `patterns` field should contain a list of one or more patterns. Ea
 | Field | Description |
 | ----- | ----------- |
 | name | Name of the pattern |
-| shortDescription | One sentence description of the pattern. If this is too long, it will be truncated in the Patterns Catalog UI. |
+| description | One sentence description of the pattern. If this is too long, it will be truncated in the Patterns Catalog UI. |
 | longDescription | Longer multi-line description. Can contain Markdown. |
 | branch | Default branch of the Git repo to use when deploying the pattern |
 | badge | Text to be displayed on the badge in the Catalog UI. Could be "Validated" or "Community" |
