@@ -2,6 +2,40 @@
 
 This repository contains the Pattern Catalog for the [Hybrid Cloud Patterns](https://hybrid-cloud-patterns.io/) project.
 
+## Example Catalog YAML
+
+Example containing a single pattern.
+
+```yaml
+version: alpha
+organization:
+  name: Hybrid Cloud Patterns
+  description: >
+    Open source repository of cloud native solution patterns.
+    This repository is maintained by Red Hat with contributions from customers and partners.
+  maintainers:
+    - name: Validated Patterns Team
+      email: team-validated-patterns@redhat.com
+  url: https://github.com/hybrid-cloud-patterns
+patterns:
+  - name: Multi-cloud GitOps
+    description: A simple architecture for managing multiple clusters using GitOps
+    longDescription: >
+      This pattern demonstrates a simple architecture for managing multiple clusters using GitOps.
+      It can be used as a good starting point for experimenting with other products in a multi-cluster architecture.
+    badge: Validated
+    branch: main
+    gitRepo: https://github.com/hybrid-cloud-patterns/multicloud-gitops.git
+    maintainers:
+      - name: Validated Patterns Team
+        email: team-validated-patterns@redhat.com
+    products:
+      - Red Hat Advanced Cluster Management
+      - Red Hat OpenShift GitOps
+      - Hashicorp Vault
+    url: https://hybrid-cloud-patterns.io/patterns/multicloud-gitops/
+```
+
 ## Catalog YAML Specification (Alpha Version)
 
 ### Top Level
