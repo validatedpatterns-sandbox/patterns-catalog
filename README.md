@@ -1,24 +1,29 @@
-# DRAFT Pattern Catalog YAML
+# Patterns Catalog DRAFT
 
-The Hybrid Cloud Patterns Operator supports importing a catalog YAML file
-containing available patterns for an organization. After importing a catalog
-YAML file, the patterns listed in that YAML file become available in the
-Pattern Catalog. An admin can then select a pattern and deploy it directly
-through the Pattern Catalog UI.
+The [Patterns Operator] is adding a Patterns Catalog feature. This feature
+provides a custom OpenShift console plugin that allows users to view and
+deploy available patterns from a catalog.
 
-This repository contains the catalog YAML for the [Hybrid Cloud Patterns]
-project. It is automatically imported when the Patterns Operator is installed.
+The catalog is populated from one or more YAML files called *Pattern Catalog
+Definitions*. A Pattern Catalog Definition file contains metadata about the
+organization providing the patterns and metadata about the patterns themselves.
 
-If your organization wants to create their own Pattern Catalog,
+This repository contains the default Pattern Catalog Definition file for the
+[Hybrid Cloud Patterns] project. It is automatically imported when the Patterns
+Operator is installed.
+
+If your organization wants to create their own Pattern Catalog Definition, you
+should:
 
 * Fork this repo
 * Update catalog.yaml
-* Create a PatternCatalogSource on your cluster pointed to your forked catalog.yaml
-* Wait a few moments and navigate to the Pattern Catalog UI
-* Your organization's patterns should be listed
+* Create a [PatternCatalogSource] on your cluster pointed to your forked
+  catalog.yaml
+* After a few moments the patterns from your catalog.yaml file should appear in
+  the Pattern Catalog.
 
-If you are using your own catalog.yaml, it's possible to delete the default
-PatternCatalogSource.
+If you are using your own Pattern Catalog Definition, it's possible to delete
+the default PatternCatalogSource:
 
 ```bash
 oc delete patterncatalogsource default -n patterns-operator
@@ -59,7 +64,7 @@ patterns:
     url: https://hybrid-cloud-patterns.io/patterns/multicloud-gitops/
 ```
 
-## Catalog YAML Specification (Alpha Version)
+## Pattern Catalog Definition Specification (Alpha Version)
 
 ### Top Level
 
@@ -115,3 +120,5 @@ Each pattern should contain a list of one or more maintainers. Each maintainer s
 | email | Email address of the maintainer |
 
 [Hybrid Cloud Patterns]: https://hybrid-cloud-patterns.io/
+[Patterns Operator]: https://github.com/RyanMillerC/patterns-operator
+[PatternCatalogSource]: https://taco.moe
