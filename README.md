@@ -51,7 +51,6 @@ patterns:
       This pattern demonstrates a simple architecture for managing multiple
       clusters using GitOps. It can be used as a good starting point for
       experimenting with other products in a multi-cluster architecture.
-    badge: Validated
     branch: main
     gitRepo: https://github.com/hybrid-cloud-patterns/multicloud-gitops.git
     maintainers:
@@ -61,6 +60,7 @@ patterns:
       - Red Hat Advanced Cluster Management
       - Red Hat OpenShift GitOps
       - Hashicorp Vault
+    type: Validated
     url: https://hybrid-cloud-patterns.io/patterns/multicloud-gitops/
 ```
 
@@ -103,11 +103,11 @@ The top-level `patterns` field should contain a list of one or more patterns. Ea
 | name | Name of the pattern |
 | description | One sentence description of the pattern. If this is too long, it will be truncated in the Patterns Catalog UI. |
 | longDescription | Longer multi-line description. Can contain Markdown. |
-| badge | Text to be displayed on the badge in the Catalog UI. Could be "Validated" or "Community". |
 | branch | Default branch of the Git repo to use when deploying the pattern |
 | gitRepo | URL to the Git repo for the pattern. This should be an HTTPS URL ending with ".git". |
 | maintainers | List of maintainers for the pattern |
 | products | A list of products used by the pattern. Each product should be a string with the proper name of the product (No abbreviations). |
+| type | Pattern type. Hybrid Cloud Patterns uses the types "Community" and "Validated". Type will be displayed as a badge on the pattern. |
 | url | URL to pattern documentation |
 
 #### Maintainers

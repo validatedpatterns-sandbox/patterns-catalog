@@ -18,7 +18,6 @@ patterns:
       This pattern demonstrates a simple architecture for managing multiple
       clusters using GitOps. It can be used as a good starting point for
       experimenting with other products in a multi-cluster architecture.
-    badge: Validated
     branch: main
     gitRepo: https://github.com/hybrid-cloud-patterns/multicloud-gitops.git
     maintainers:
@@ -28,6 +27,7 @@ patterns:
       - Red Hat Advanced Cluster Management
       - Red Hat OpenShift GitOps
       - Hashicorp Vault
+    type: Validated
     url: https://hybrid-cloud-patterns.io/patterns/multicloud-gitops/
 
   - name: Multicluster DevSecOps
@@ -40,7 +40,6 @@ patterns:
       storage in a secure registry; deployment to secured clusters that provide
       advanced security monitoring and alerting.
     branch: main
-    badge: Community
     gitRepo: https://github.com/hybrid-cloud-patterns/multicluster-devsecops.git
     maintainers:
       - name: Validated Patterns Team
@@ -53,6 +52,7 @@ patterns:
       - Red Hat Open Data Foundation
       - Red Hat Advanced Cluster Security
       - Hashicorp Vault
+    type: Community
     url: https://hybrid-cloud-patterns.io/patterns/industrial-edge/
 
   - name: Industrial Edge
@@ -64,7 +64,6 @@ patterns:
       MANUfacturing Edge Lightweight Accelerator, you will see this acronym in
       a lot of artifacts.
     branch: stable
-    badge: Validated
     gitRepo: https://github.com/hybrid-cloud-patterns/industrial-edge.git
     maintainers:
       - name: Validated Patterns Team
@@ -80,4 +79,5 @@ patterns:
       - Open Data Hub
       - Seldon
       - Hashicorp Vault
+    type: Validated
     url: https://hybrid-cloud-patterns.io/patterns/devsecops/
