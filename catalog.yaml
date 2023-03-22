@@ -91,7 +91,6 @@ patterns:
       - name: Validated Patterns Team
         email: team-validated-patterns@redhat.com
     products:
-      - Red Hat Advanced Cluster Management
       - Red Hat OpenShift GitOps
       - Red Hat OpenShift Pipelines
       - Red Hat AMQ
