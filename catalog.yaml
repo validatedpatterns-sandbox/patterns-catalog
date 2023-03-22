@@ -30,6 +30,7 @@ patterns:
       - name: Red Hat Open Data Foundation
       - name: Red Hat Advanced Cluster Security
       - name: Hashicorp Vault
+      - name: Sigstore, Cosign and Rekor
     branch: main
     maintainers: team-validated-patterns@redhat.com
   - name: Industrial Edge
