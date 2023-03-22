@@ -1,4 +1,13 @@
-# Patterns Catalog DRAFT
+# Patterns Catalog
+
+The catalog in this repository contains the information on the latest patterns, 
+both validated and community, that are maintained in the hybrid-cloud-patterns
+repo.
+
+There are two possible uses for this catalog:
+
+* Backstage
+* Validated Patterns operator
 
 The [Patterns Operator] is adding a Patterns Catalog feature. This feature
 provides a custom OpenShift console plugin that allows users to view and
