@@ -120,5 +120,5 @@ Each pattern should contain a list of one or more maintainers. Each maintainer s
 | email | Email address of the maintainer |
 
 [Hybrid Cloud Patterns]: https://hybrid-cloud-patterns.io/
+[PatternCatalogSource]: https://github.com/RyanMillerC/patterns-catalog/blob/main/default-patterncatalogsource.yaml
 [Patterns Operator]: https://github.com/RyanMillerC/patterns-operator
-[PatternCatalogSource]: https://taco.moe
