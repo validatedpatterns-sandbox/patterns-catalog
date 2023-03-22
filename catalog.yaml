@@ -53,7 +53,7 @@ patterns:
       - Red Hat Advanced Cluster Security
       - Hashicorp Vault
     type: Community
-    url: https://hybrid-cloud-patterns.io/patterns/industrial-edge/
+    url: https://hybrid-cloud-patterns.io/patterns/multicluster-devsecops/
 
   - name: Industrial Edge
     description: A horizontal solution for Industrial Edge use cases
@@ -80,4 +80,4 @@ patterns:
       - Seldon
       - Hashicorp Vault
     type: Validated
-    url: https://hybrid-cloud-patterns.io/patterns/devsecops/
+    url: https://hybrid-cloud-patterns.io/patterns/industrial-edge/
