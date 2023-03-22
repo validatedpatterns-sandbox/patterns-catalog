@@ -1,0 +1,12 @@
+# Default PatternCatalogSource that ships with the Patterns Operator. If you
+# want to deploy your own catalog:
+# * Copy this file
+# * Replace spec.source with the URL of your catalog.yaml
+# * Apply the customized PatternCatalogSource to OpenShift
+apiVersion: gitops.hybrid-cloud-patterns.io/v1alpha1
+kind: PatternCatalogSource
+metadata:
+  name: default
+  namespace: patterns-operator
+spec:
+  source: 'https://raw.githubusercontent.com/RyanMillerC/patterns-catalog/main/catalog.yaml'
