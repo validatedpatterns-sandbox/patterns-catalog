@@ -30,6 +30,28 @@ patterns:
     type: Validated
     url: https://hybrid-cloud-patterns.io/patterns/multicloud-gitops/
 
+  - name: Medical Diagnosis
+    description: A pattern for doing AI/Ml on images
+    longDescription: >
+      This pattern demonstrates a simple architecture for deploying an images
+      recognition and processing application. This Validated Pattern is based 
+      on a demo implementation of an automated data pipeline for chest Xray analysis 
+      previously developed by Red Hat. The original demo can be found here. It 
+      was developed for the US Department of Veteran Affairs.
+    branch: main
+    gitRepo: https://github.com/hybrid-cloud-patterns/medical-diagnosis.git
+    maintainers:
+      - name: Validated Patterns Team
+        email: team-validated-patterns@redhat.com
+    products:
+      - Red Hat Advanced Cluster Management
+      - Red Hat OpenShift GitOps
+      - OpenShift Serverless
+      - OpenDataHub
+      - Hashicorp Vault
+    type: Validated
+    url: https://hybrid-cloud-patterns.io/patterns/medical-diagnosis/
+
   - name: Multicluster DevSecOps
     description: A horizontal solution for multicluster DevSecOps use cases
     longDescription: >
@@ -81,3 +103,31 @@ patterns:
       - Hashicorp Vault
     type: Validated
     url: https://hybrid-cloud-patterns.io/patterns/industrial-edge/
+
+  - name: Retail
+    description: This pattern demonstrates a pattern that models the store side of a retail application.
+    longDescription: >
+      This pattern demonstrates a pattern that models the store side of a retail application.
+      It is derived from the Quarkus Coffeeshop Demo done by Red Hat Solution Architects. 
+      The demo models the use of multiple application microservices which use Kafka messaging 
+      to interact and a Postgres database to persist data. (There is a homeoffice analytics 
+      suite in the demo that we hope to include in a later version of the pattern.
+      This demo pulls together several different strands of the demo and allows for multiple
+      stores to be installed on remote clusters via ACM if the user desires.
+      The demo allows users to go to the store’s web page, order drinks and food items, 
+      and see those items “made” and served by the microservices in real time.
+      The pattern includes build pipelines and a demo space, so that changes to the 
+      applications can be tested prior to “production” deployments.
+    branch: main
+    gitRepo: https://github.com/hybrid-cloud-patterns/retail.git
+    maintainers:
+      - name: Validated Patterns Team
+        email: team-validated-patterns@redhat.com
+    products:
+      - Red Hat Advanced Cluster Management
+      - Red Hat OpenShift GitOps
+      - Red Hat OpenShift Pipelines
+      - Red Hat AMQ Streams
+      - Hashicorp Vault
+    type: Community
+    url: https://hybrid-cloud-patterns.io/patterns/retail/
